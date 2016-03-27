@@ -18,7 +18,7 @@ docker run -it -p 9995:9995 -h zeppelin --name zeppelin alghimo/docker-zeppelin:
 ```
 or
 ```
-docker run -d -h zeppelin --name zeppelin alghimo/docker-zeppelin:latest
+docker run -d -p 9995:9995 -h zeppelin --name zeppelin alghimo/docker-zeppelin:latest -d
 ```
 In case you want to open some extra ports for the UI, etc: -p 8088:8088 -p 8042:8042 -p 4040:4040
 
